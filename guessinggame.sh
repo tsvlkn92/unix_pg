@@ -3,7 +3,7 @@
 # Peer graded assignment for Coursera/The Unix Workbench -- VT
 
 function totalfile {
-answer=$(ls -1 | wc -l)
+answer=$(ls -1 |grep "^."|wc -l)
 echo $answer
 }
 
