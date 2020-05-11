@@ -1,5 +1,3 @@
-#/usr/bin/env bash
-
 all: README.md
 
 README.md: 
